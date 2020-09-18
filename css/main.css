@@ -69,7 +69,17 @@ figure {
 }
 
 .portfolio {
-    background:#fafafa
+    background:#fafafa;
+    padding: 20px;
+}
+
+h2 {
+    color: #026fff;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:20px;
+    margin-bottom: 40px;
 }
 
 .project {
@@ -79,9 +89,31 @@ figure {
     padding:20px;
     margin: 10px 10px 15px;
     background: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
+
 .project-details {
     width: 500px;
+}
+
+.project-title {
+    font-size: 30px;
+    margin:0 0 10px;
+}
+
+.project-course {
+    margin:10px 0;
+    font-size:15px;
+}
+
+.project-date, .project-link {
+    margin:10px 0;
+}
+
+.project-description {
+    font-size: 20px;
 }
 
 .project-imageContainer {
